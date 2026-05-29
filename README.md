@@ -29,7 +29,7 @@ npm install -g pnpm
 Clone the repository:
 
 ```bash
-git clone <https://github.com/vishu-kr/dabang_dashboard.git>
+git clone https://github.com/vishu-kr/dabang_dashboard.git
 ```
 
 Navigate to the project directory:
