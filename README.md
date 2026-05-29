@@ -29,13 +29,13 @@ npm install -g pnpm
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/vishu-kr/dabang_dashboard.git>
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd <project-name>
+cd dabang_dashboard
 ```
 
 Install dependencies:
