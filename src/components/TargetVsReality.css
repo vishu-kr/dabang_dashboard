@@ -1,0 +1,39 @@
+.target-reality .tr-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.tr-row {
+  display: grid;
+  grid-template-columns: 36px 1fr auto;
+  align-items: center;
+  gap: 12px;
+}
+
+.tr-row-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
+}
+
+.tr-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+.tr-sub {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+.tr-value {
+  font-size: 14px;
+  font-weight: 600;
+}

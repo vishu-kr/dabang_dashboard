@@ -1,0 +1,57 @@
+.top-products .tp-table {
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.tp-head, .tp-row {
+  display: grid;
+  grid-template-columns: 32px 1.6fr 2fr 64px;
+  align-items: center;
+  gap: 12px;
+}
+
+.tp-head {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 500;
+  padding-bottom: 6px;
+}
+
+.tp-id {
+  color: var(--text-muted);
+  font-size: 12px;
+}
+.tp-name {
+  font-size: 13px;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.tp-bar {
+  height: 5px;
+  background: #f0f1f5;
+  border-radius: 999px;
+  overflow: hidden;
+  position: relative;
+}
+.tp-bar-fill {
+  display: block;
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.6s ease;
+}
+
+.tp-tag {
+  border: 1px solid;
+  border-radius: 6px;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: 500;
+  text-align: center;
+  justify-self: end;
+  background: #fff;
+}
+
+.tp-sales-col { text-align: right; }

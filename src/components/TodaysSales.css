@@ -1,0 +1,75 @@
+.todays-sales .ts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+
+.export-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+  transition: background 0.18s;
+}
+.export-btn:hover { background: var(--brand-light); border-color: var(--brand-light); }
+
+.ts-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+
+.stat-card {
+  padding: 18px 16px;
+  border-radius: 12px;
+  position: relative;
+  min-height: 130px;
+  display: flex;
+  flex-direction: column;
+}
+.tint-pink   { background: var(--tint-pink); }
+.tint-orange { background: var(--tint-orange); }
+.tint-green  { background: var(--tint-green); }
+.tint-purple { background: var(--tint-purple); }
+
+.stat-icon {
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  display: grid; place-items: center;
+  color: #fff;
+  margin-bottom: 14px;
+}
+.icon-pink   { background: var(--icon-pink); }
+.icon-orange { background: var(--icon-orange); }
+.icon-green  { background: var(--icon-green); }
+.icon-purple { background: var(--icon-purple); }
+
+.stat-value {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.1;
+  margin-bottom: 4px;
+}
+.stat-label {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+.stat-delta {
+  font-size: 10px;
+  color: var(--brand);
+  font-weight: 500;
+  margin-top: auto;
+}
+
+@media (max-width: 700px) {
+  .ts-grid { grid-template-columns: repeat(2, 1fr); }
+}
